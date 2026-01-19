@@ -75,7 +75,17 @@ export default function Home() {
           <p className="mt-2 text-lg text-muted-foreground">
             A calculadora de inteligência para o novo cenário fiscal de anúncios no Brasil.
           </p>
-          <p className="text-sm text-muted-foreground">Uma ferramenta por Matheus Henrike</p>
+          <p className="text-sm text-muted-foreground">
+            Uma ferramenta por{' '}
+            <a
+              href="https://www.instagram.com/eusoumatheushenrik/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary transition-colors"
+            >
+              Matheus Henrike
+            </a>
+          </p>
         </header>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-10">
