@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Image from 'next/image';
 import { CalculatorForm, type CalculatorState } from '@/components/calculator-form';
 import { ResultsDisplay } from '@/components/results-display';
 import { Faq } from '@/components/faq';
@@ -68,24 +69,34 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background font-body p-4 sm:p-6 md:p-10">
       <div className="mx-auto max-w-7xl">
-        <header className="text-center md:text-left mb-10">
-          <h1 className="font-headline text-4xl md:text-5xl font-extrabold tracking-tighter">
-            Meta Ads Tax Navigator
-          </h1>
-          <p className="mt-2 text-lg text-muted-foreground">
-            A calculadora de inteligência para o novo cenário fiscal de anúncios no Brasil.
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Uma ferramenta por{' '}
-            <a
-              href="https://www.instagram.com/eusoumatheushenrik/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-primary transition-colors"
-            >
-              Matheus Henrike
-            </a>
-          </p>
+        <header className="flex flex-col md:flex-row items-center gap-6 text-center md:text-left mb-10">
+          <Image
+            src="https://i.ibb.co/1GPKv0YV/Gemini-Generated-Image-ueig3zueig3zueig-1-Photoroom.png"
+            alt="Meta Ads Tax Navigator Logo"
+            width={100}
+            height={100}
+            className="rounded-full"
+            priority
+          />
+          <div>
+            <h1 className="font-headline text-4xl md:text-5xl font-extrabold tracking-tighter">
+              Meta Ads Tax Navigator
+            </h1>
+            <p className="mt-2 text-lg text-muted-foreground">
+              A calculadora de inteligência para o novo cenário fiscal de anúncios no Brasil.
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Uma ferramenta por{' '}
+              <a
+                href="https://www.instagram.com/eusoumatheushenrik/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-primary transition-colors"
+              >
+                Matheus Henrike
+              </a>
+            </p>
+          </div>
         </header>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-10">
