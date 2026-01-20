@@ -50,9 +50,11 @@ export function CreatorProfile() {
             <SocialLink href={creatorData.socials.github} icon={Github} aria-label="GitHub" />
             <SocialLink href={creatorData.socials.email} icon={Mail} aria-label="Email" />
         </div>
-        <Button className="w-full font-bold" size="lg">
-          <Calendar className="mr-2 h-4 w-4" />
-          Agendar Consultoria
+        <Button className="w-full font-bold" size="lg" asChild>
+          <a href="https://api.whatsapp.com/send/?phone=5565992843701&text=Ol%C3%A1+Matheus+Henrike&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+            <Calendar className="mr-2 h-4 w-4" />
+            Agendar Consultoria
+          </a>
         </Button>
       </CardContent>
     </Card>
