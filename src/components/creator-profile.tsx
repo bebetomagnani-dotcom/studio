@@ -11,7 +11,7 @@ const creatorData = {
   location: "Cuiabá, Brasil",
   avatar_url: "https://0.gravatar.com/avatar/84218fc49121f1942db244e0397d2246bcf67d1768f62e88ea5b69c785ad2d57?s=256&d=initials",
   socials: {
-    instagram: "https://instagram.com/eusoumatheushenrik",
+    instagram: "https://www.instagram.com/matheushenrikeofc/reels/",
     linkedin: "https://linkedin.com/in/matheus-henrike-30a088386",
     youtube: "https://youtube.com/@matheushenrikeyoutube",
     github: "https://github.com/Matheushenrke",

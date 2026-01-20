@@ -89,7 +89,7 @@ export default function Home() {
             <p className="text-sm text-muted-foreground">
               Uma ferramenta por{' '}
               <a
-                href="https://www.instagram.com/eusoumatheushenrik/"
+                href="https://www.instagram.com/matheushenrikeofc/reels/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-primary transition-colors"
