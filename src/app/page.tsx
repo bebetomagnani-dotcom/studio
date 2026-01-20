@@ -6,6 +6,7 @@ import { CalculatorForm, type CalculatorState } from '@/components/calculator-fo
 import { ResultsDisplay } from '@/components/results-display';
 import { Faq } from '@/components/faq';
 import { Separator } from '@/components/ui/separator';
+import { CreatorProfile } from '@/components/creator-profile';
 
 export default function Home() {
   const [state, setState] = useState<CalculatorState>({
@@ -114,6 +115,16 @@ export default function Home() {
 
         <div className="mt-12">
           <Faq />
+        </div>
+
+        <div className="mt-12 py-12">
+            <div className="mx-auto max-w-3xl text-center">
+                <h2 className="text-3xl font-headline font-bold mb-4">Desenvolvido por</h2>
+                <p className="text-muted-foreground mb-8">
+                Esta ferramenta foi criada para ajudar empreendedores e gestores de tráfego a navegar no complexo cenário fiscal brasileiro.
+                </p>
+            </div>
+            <CreatorProfile />
         </div>
       </div>
     </main>
